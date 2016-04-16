@@ -1,0 +1,85 @@
+XOR R0,R0,R0
+l2:
+JMP l3
+l3:
+ADDI R1,R0,1
+WR R1
+JMP l2
+l1:
+l5:
+JMP l4
+l6:
+ADDI R1,R0,2
+WR R1
+JMP l5
+l4:
+l8:
+JMP l9
+l9:
+ADDI R1,R0,3
+WR R1
+JMP l8
+l7:
+l11:
+JMP l10
+l12:
+ADDI R1,R0,5
+WR R1
+WRS 0
+WRS 0
+JMP l11
+l10:
+l14:
+JMP l15
+l15:
+ADDI R1,R0,7
+WR R1
+JMP l14
+l13:
+l17:
+JMP l16
+l18:
+ADDI R1,R0,8
+WR R1
+JMP l17
+l16:
+l20:
+JMP l19
+l21:
+WRS 2
+JMP l20
+l19:
+l23:
+JMP l24
+l24:
+WRS 4
+JMP l23
+l22:
+l26:
+JMP l27
+l27:
+l29:
+JMP l30
+l30:
+WRS 6
+JMP l29
+l28:
+l32:
+JMP l33
+l33:
+WRS 8
+JMP l32
+l31:
+JMP l26
+l25:
+HALT
+DATA 10 ;  
+DATA 0 ;  
+DATA 97 ; a 
+DATA 0 ;  
+DATA 98 ; b 
+DATA 0 ;  
+DATA 99 ; c 
+DATA 0 ;  
+DATA 100 ; d 
+DATA 0 ;  
